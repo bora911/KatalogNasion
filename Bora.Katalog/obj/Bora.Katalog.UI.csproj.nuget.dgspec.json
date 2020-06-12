@@ -1,0 +1,329 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog\\Bora.Katalog.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.BL\\Bora.Katalog.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.BL\\Bora.Katalog.BL.csproj",
+        "projectName": "Bora.Katalog.BL",
+        "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.BL\\Bora.Katalog.BL.csproj",
+        "packagesPath": "C:\\Users\\Pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\Bora.Katalog.INTERFACES.csproj": {
+                "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\Bora.Katalog.INTERFACES.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj",
+        "projectName": "Bora.Katalog.CORE",
+        "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj",
+        "packagesPath": "C:\\Users\\Pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.DAO\\Bora.Katalog.DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.DAO\\Bora.Katalog.DAO.csproj",
+        "projectName": "Bora.Katalog.DAO",
+        "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.DAO\\Bora.Katalog.DAO.csproj",
+        "packagesPath": "C:\\Users\\Pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj": {
+                "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj"
+              },
+              "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\Bora.Katalog.INTERFACES.csproj": {
+                "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\Bora.Katalog.INTERFACES.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\Bora.Katalog.INTERFACES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\Bora.Katalog.INTERFACES.csproj",
+        "projectName": "Bora.Katalog.INTERFACES",
+        "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\Bora.Katalog.INTERFACES.csproj",
+        "packagesPath": "C:\\Users\\Pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.INTERFACES\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj": {
+                "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog\\Bora.Katalog.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog\\Bora.Katalog.UI.csproj",
+        "projectName": "Bora.Katalog.UI",
+        "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog\\Bora.Katalog.UI.csproj",
+        "packagesPath": "C:\\Users\\Pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.BL\\Bora.Katalog.BL.csproj": {
+                "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.BL\\Bora.Katalog.BL.csproj"
+              },
+              "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj": {
+                "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.CORE\\Bora.Katalog.CORE.csproj"
+              },
+              "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.DAO\\Bora.Katalog.DAO.csproj": {
+                "projectPath": "C:\\Users\\Pawel\\source\\repos\\KatalogNasion\\Bora.Katalog.DAO\\Bora.Katalog.DAO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
