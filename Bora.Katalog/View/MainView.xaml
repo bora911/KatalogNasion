@@ -1,0 +1,54 @@
+<UserControl x:Class="Bora.Katalog.UI.View.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Bora.Katalog.UI.View"
+             xmlns:viewModel="clr-namespace:Bora.Katalog.UI.ViewModel"
+             mc:Ignorable="d"
+             d:DesignHeight="590.164" d:DataContext="{d:DesignInstance d:Type=viewModel:MainViewModel}" Width="749">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <Button Width="100" Margin="5" Content="Add new" Command="{Binding AddSeedCommand}"></Button>
+            <Label Content="Find seeds:"></Label>
+            <TextBox Text="{Binding FilterText,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}" Margin="5"></TextBox>
+        </DockPanel>
+        <DataGrid ItemsSource="{Binding Seeds}" AutoGenerateColumns="False" Grid.Row="1" Margin="5 10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Variety" Binding="{Binding Variety}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Type" Binding="{Binding Type}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Production Date" Binding="{Binding ProductionDate,  StringFormat=dd-MM-yyyy}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Expiration Date" Binding="{Binding ExpirationDate,  StringFormat=dd-MM-yyyy}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Seed Type" Binding="{Binding SeedType}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Seed Caliber" Binding="{Binding SeedCaliber}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Validity" Binding="{Binding ValidityTime}"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="Actions">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Remove" Command="{Binding Path=DataContext.RemoveSeedCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding Id}"></Button>
+                                <Button Content="Edit" Command="{Binding Path=DataContext.EditSeedCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding Id}"></Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Stretch" Margin="5">
+            <Label Margin="5" Content="Producer"></Label>
+            <ComboBox Margin="5" ItemsSource="{Binding Producers}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedProducer,Mode=TwoWay}" Width="60"></ComboBox>
+            <Label Margin="5" Content="Seed Type"></Label>
+            <ComboBox ItemsSource="{Binding SeedTypes}" SelectedItem="{Binding SelectedSeedType, Mode=TwoWay}" Width="60"/>
+            <Label Margin="5" Content="Seed Caliber"></Label>
+            <ComboBox Margin="5" ItemsSource="{Binding SeedCalibers}" SelectedItem="{Binding SelectedSeedCaliber,Mode=TwoWay}" Width="60"></ComboBox>
+            <Label Margin="5" Content="Validity Time"></Label>
+            <ComboBox Margin="5" ItemsSource="{Binding ValidityTimes}" SelectedItem="{Binding SelectedValidityTime,Mode=TwoWay}" Width="60"></ComboBox>
+            <Button Content="Clear Filters" Margin="5" Width="100" Padding="5" Command="{Binding ClearFiltersCommand}"></Button>
+        </StackPanel>
+    </Grid>
+</UserControl>
